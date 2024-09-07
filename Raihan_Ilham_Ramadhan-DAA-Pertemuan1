@@ -1,0 +1,69 @@
+1. Mencari Nilai KPK dari 3 dan 4
+  Algoritma: 1. Cari FPB
+             2. Hitung KPK dengan rumus
+             3. KPK dari 2 bilangan tersebut adalah hasil dari langkah 2
+
+  Pseudecode: 1. Mulai
+              2. Inisiasi a = 3 dan b = 4
+              3. Lakukan pembagian dengan sisa (modulo) pada a dan b:
+                  Jika b ≠ 0, lakukan a = b dan b = a mod b, ulangi hingga b = 0.
+                  Jika b = 0, maka a adalah FPB
+              4. Hitung KPK dengan rumus (a * b) / FPB
+              5. Hasilnya adalah nilai KPK dari 3 dan 4
+
+2. Menukar posisi dua variabel Manggis dipiring 1 dengan pisang dipiring 2 menggunakan 1 piring kosong (piring 3)
+  Algoritma: 1. Pindahkan Manggis dari piring 1 ke piring 3.
+             2. Pindahkan Pisang dari piring 2 ke piring 1.
+             3. Pindahkan Manggis dari piring 3 ke piring 2. 
+
+  Pseudecode: 1. piring1 = manggis, piring2 = pisang, piring3 = 0
+              2. piring3 = piring1 (piring 3 berisi pisang)
+              3. piring1 = piring2 (piring 1 berisi manggis)
+              4. piring2 = piring3 (piring 2 berisi pisang)
+              5. output manggis dan pisang berhasil ditukar
+
+3. Menghitung luas segitiga (Alas = 25, Tinggi = 30)
+  Algoritma: 1. Diketahui alas = 25, Tinggi = 30
+             2. Hitung luas segitiga dengan rumus alas*tinngi/2
+             3. Masukkan nilai alas dan tingginya
+             4. Luas dari segituga tersebut merupakan hasil dari langkah ke 2
+
+  Pseudecode: 1. Inisiasi a = 25, t = 30
+              2. Rumus: L = (a*t)/2
+              3. Output hasil luas
+              4. selesai
+
+4. Menghitung luas jajar genjang (Panjang = 5, Tinggi = 3)
+  Algoritma: 1. Diketahui Panjang = 5, Tinggi = 3
+             2. Hitung luas jajar genjang dengan rumus Panjang*Tinggi
+             3. Masukkan nilai Panjang dan Tinggi
+             4. Luas dari jajar genjang tersebut merupakan hasil dari langkah ke 2
+
+  Pseudecode: 1. inisiasi P = 5, T = 3
+              2. Rumus: L = P*T
+              3. Output hasil luas
+              4. Selesai 
+
+5. Mengitung volume tabung (jari-jari = 3, tinggi = 5)
+  Algoritma: 1. Diketahui jari-jari tabung = 3, tinggi = 5
+             2. Rumus volume tabung = phi * (jari-jari^2) * tinggi
+             3. Masukkan nilai jari-jari, tinggi dan phi 22/7
+             4. Volume tabung tersebut merupakan hasil dari langkah ke 2
+
+  Pseudecode: 1. Inisiasi jj = 3, t = 5
+              2. Rumus: Vt = phi * (jj^2) * t
+              3. output hasil volume tabung
+
+6. Menghitung volume kerucut (Diameter = 5, Tinggi = 4)
+  Algoritma: 1. Masukkan diameter dan tinggi kerucut
+             2. Hitung jari-jari kerucut menggunakan rumus diameter/2
+             3. Hitung volume kerucut menggunakan rumus (1/3) * phi * (jari-jari^2) * tinngi
+             4. tampilkan hasil perhitungan kerucut
+
+  Pseudecode: 1. Inisiasi D = 5, T = 4
+              2. Rumus: jj = D/2
+              3. Rumus: Vk = (1/3) * phi * (jj^2) * T
+              4. Output hasil volume kerucut
+
+
+
